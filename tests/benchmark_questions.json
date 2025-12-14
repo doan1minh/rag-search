@@ -1,0 +1,189 @@
+{
+    "benchmark_version": "1.0",
+    "description": "Benchmark questions for Vietnamese legal research system evaluation",
+    "created_at": "2025-12-12",
+    "questions": [
+        {
+            "id": "Q001",
+            "category": "Minerals & Mining",
+            "difficulty": "medium",
+            "query": "Khoáng sản nhóm III là gì và quy định khai thác như thế nào?",
+            "query_en": "What are Group III minerals and what are the regulations for their exploitation?",
+            "expected_references": [
+                "60/2010/QH12",
+                "15/2012/ND-CP"
+            ],
+            "key_articles": [
+                "Article 28",
+                "Article 53",
+                "Article 55"
+            ],
+            "evaluation_criteria": [
+                "Correctly identifies Group III minerals as metallic and non-metallic minerals",
+                "References Law on Minerals 2010",
+                "Includes licensing/permit requirements"
+            ]
+        },
+        {
+            "id": "Q002",
+            "category": "Land Law",
+            "difficulty": "hard",
+            "query": "Quy định về thu hồi đất vì mục đích an ninh quốc phòng",
+            "query_en": "Regulations on land recovery for national defense and security purposes",
+            "expected_references": [
+                "45/2013/QH13",
+                "43/2014/ND-CP"
+            ],
+            "key_articles": [
+                "Article 61",
+                "Article 62",
+                "Article 69"
+            ],
+            "evaluation_criteria": [
+                "Identifies Land Law 2013 as primary source",
+                "Explains compensation and resettlement requirements",
+                "Distinguishes between mandatory and voluntary recovery"
+            ]
+        },
+        {
+            "id": "Q003",
+            "category": "Labor Law",
+            "difficulty": "easy",
+            "query": "Thời gian làm việc và nghỉ ngơi theo Bộ luật Lao động",
+            "query_en": "Working hours and rest periods under the Labor Code",
+            "expected_references": [
+                "45/2019/QH14"
+            ],
+            "key_articles": [
+                "Article 105",
+                "Article 106",
+                "Article 107"
+            ],
+            "evaluation_criteria": [
+                "States normal working hours (8 hours/day, 48 hours/week)",
+                "Explains overtime limits",
+                "References Labor Code 2019"
+            ]
+        },
+        {
+            "id": "Q004",
+            "category": "Environmental Protection",
+            "difficulty": "medium",
+            "query": "Đánh giá tác động môi trường (ĐTM) đối với dự án đầu tư",
+            "query_en": "Environmental Impact Assessment (EIA) for investment projects",
+            "expected_references": [
+                "72/2020/QH14",
+                "08/2022/ND-CP"
+            ],
+            "key_articles": [
+                "Article 30",
+                "Article 31",
+                "Article 32"
+            ],
+            "evaluation_criteria": [
+                "Identifies projects requiring EIA",
+                "Explains EIA approval process",
+                "References Law on Environmental Protection 2020"
+            ]
+        },
+        {
+            "id": "Q005",
+            "category": "Tax Law",
+            "difficulty": "medium",
+            "query": "Thuế tài nguyên khoáng sản",
+            "query_en": "Mineral resource tax/royalties",
+            "expected_references": [
+                "45/2009/QH12",
+                "50/2010/QH12"
+            ],
+            "key_articles": [
+                "Article 6",
+                "Article 7"
+            ],
+            "evaluation_criteria": [
+                "Explains resource tax calculation basis",
+                "Lists applicable tax rates",
+                "Distinguishes between different mineral types"
+            ]
+        },
+        {
+            "id": "Q006",
+            "category": "Corporate Law",
+            "difficulty": "easy",
+            "query": "Thành lập công ty TNHH một thành viên",
+            "query_en": "Establishing a single-member limited liability company",
+            "expected_references": [
+                "59/2020/QH14"
+            ],
+            "key_articles": [
+                "Article 74",
+                "Article 75",
+                "Article 76"
+            ],
+            "evaluation_criteria": [
+                "Lists required documents for registration",
+                "Explains capital requirements",
+                "References Law on Enterprises 2020"
+            ]
+        },
+        {
+            "id": "Q007",
+            "category": "Investment Law",
+            "difficulty": "hard",
+            "query": "Điều kiện đầu tư nước ngoài vào lĩnh vực giáo dục",
+            "query_en": "Conditions for foreign investment in the education sector",
+            "expected_references": [
+                "61/2020/QH14",
+                "31/2021/ND-CP"
+            ],
+            "key_articles": [
+                "Article 9",
+                "Article 15"
+            ],
+            "evaluation_criteria": [
+                "Identifies conditional investment sectors",
+                "Explains foreign ownership limits if any",
+                "References Investment Law 2020"
+            ]
+        },
+        {
+            "id": "Q008",
+            "category": "Intellectual Property",
+            "difficulty": "medium",
+            "query": "Bảo hộ nhãn hiệu tại Việt Nam",
+            "query_en": "Trademark protection in Vietnam",
+            "expected_references": [
+                "50/2005/QH11",
+                "07/2023/ND-CP"
+            ],
+            "key_articles": [
+                "Article 72",
+                "Article 73",
+                "Article 74"
+            ],
+            "evaluation_criteria": [
+                "Explains registration process",
+                "States protection duration (10 years, renewable)",
+                "References Law on Intellectual Property"
+            ]
+        }
+    ],
+    "scoring_rubric": {
+        "citation_accuracy": {
+            "weight": 0.3,
+            "description": "Correctness of legal document references"
+        },
+        "completeness": {
+            "weight": 0.3,
+            "description": "Covers all key aspects of the query"
+        },
+        "evidence_grounding": {
+            "weight": 0.25,
+            "description": "Claims are supported by retrieved evidence"
+        },
+        "format_quality": {
+            "weight": 0.15,
+            "description": "Professional structure and citation formatting"
+        }
+    }
+}
